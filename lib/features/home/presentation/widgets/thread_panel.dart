@@ -75,7 +75,7 @@ class _ThreadPanelState extends State<ThreadPanel> {
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 8),
                         child: Text(
-                          '${_replies.length} replies',
+                          '${_replies.length} ${_replies.length == 1 ? 'reply' : 'replies'}',
                           style: TextStyle(
                             color: colors.textHint,
                             fontSize: 12,
